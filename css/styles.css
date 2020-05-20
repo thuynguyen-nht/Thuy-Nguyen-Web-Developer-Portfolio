@@ -51,15 +51,16 @@ body {
     border-radius: 23px;
     background-color: #FDFDFD;
     line-height: 3vw;
-    padding-left: 29px;
-    padding-right: 29px;
-    margin-top: -10px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 4px;
     padding-bottom: 4px;
     color: #FFAD33;
 }
+a {
+    text-decoration: none;
+}
 .row .col-6 h3 {
-    text-align: center;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -465,6 +466,28 @@ body main {
 .specialized-block {
     margin-top: 5%;
     margin-bottom: 5%;
+}
+div .row .col-md-6 {
+    text-align: center;
+}
+.prototype {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.prototype div img {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.card .card-body .card-title {
+    color: #FFAD33;
+}
+.project-card {
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.00);
+    border: 1px solid #FFAD33;
 }
 
 @media (min-width:768px) {
