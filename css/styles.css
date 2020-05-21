@@ -489,6 +489,37 @@ div .row .col-md-6 {
     background-color: rgba(255,255,255,0.00);
     border: 1px solid #FFAD33;
 }
+.col.mb-4 .card.project-card .card-img-top {
+    border-radius: 10px;
+}
+
+/*load more sectio*/
+#loadMore {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+#loadMore a {
+    background: #042a63;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    transition: all 0.25s ease-out;
+    -webkit-font-smoothing: antialiased;
+}
+#loadMore a:hover {
+    background-color: #021737;
+}
+article {
+    margin-bottom: 20px;
+}
+
+/*end load more*/
+
+
+
 
 @media (min-width:768px) {
         .jumbotron.jumbotron-fluid .container .jumbotron-text.developer {
