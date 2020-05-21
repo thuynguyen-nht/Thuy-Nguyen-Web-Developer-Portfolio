@@ -515,6 +515,19 @@ div .row .col-md-6 {
 article {
     margin-bottom: 20px;
 }
+.contact {
+    padding-bottom: 0px;
+    margin-bottom: 25px;
+}
+footer {
+    background-image: url(../images/footer-bg_1.png);
+    height: 185px;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 134px;
+}
+.copy-rights {
+}
 
 /*end load more*/
 
