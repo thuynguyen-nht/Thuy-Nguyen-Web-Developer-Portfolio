@@ -3,6 +3,10 @@
         width: 52px;
 }
 
+page-section {
+        height: 100vh;
+}
+
 #nav-menu {
         margin-top: 0px;
 }
@@ -39,6 +43,8 @@ body {
         padding-bottom: 0px;
 }
 
+#contact-section form {}
+
 .jumbotron-text {
         font-size: 9.5vw;
         text-align: left;
@@ -48,21 +54,20 @@ body {
 }
 
 .lead {
-    border-radius: 23px;
-    background-color: #FDFDFD;
-    line-height: 3vw;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    color: #FFAD33;
+        border-radius: 23px;
+        background-color: #FDFDFD;
+        padding-left: 40px;
+        padding-right: 40px;
+        color: #FFAD33;
 }
+
 a {
-    text-decoration: none;
+        text-decoration: none;
 }
+
 .row .col-6 h3 {
-    margin-bottom: 20px;
-    margin-top: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
 }
 
 #mail {
@@ -368,7 +373,6 @@ a {
         }
 }
 
-.first-row {}
 
 .container .jumbotron-text.developer {
         text-align: left;
@@ -442,95 +446,90 @@ body main {
 }
 
 #mail {}
+
 .icon-box {
-    border: thin solid #FFAD33;
-    display: inline-block;
-    border-radius: 6px;
-    width: 62px;
-    height: 62px;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-top: 2px;
+        border: thin solid #FFAD33;
+        display: inline-block;
+        border-radius: 6px;
+        width: 62px;
+        height: 62px;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-top: 2px;
 }
+
 .content-box {
-    display: inline;
-    border: thin dotted #FFAD33;
-    border-radius: 6px;
-    background-color: #FFAD33;
-    padding-top: 21px;
-    padding-bottom: 21px;
-    padding-right: 24px;
-    padding-left: 21px;
+        display: inline;
+        border: thin dotted #FFAD33;
+        border-radius: 6px;
+        background-color: #FFAD33;
+        padding-top: 21px;
+        padding-bottom: 21px;
+        padding-right: 24px;
+        padding-left: 21px;
 }
+
 .specialized-block {
-    margin-top: 5%;
-    margin-bottom: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
 }
+
 div .row .col-md-6 {
-    text-align: center;
+        text-align: center;
 }
+
 .prototype {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
 }
+
 .prototype div img {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 8px;
-    margin-bottom: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 8px;
+        margin-bottom: 10px;
 }
+
 .card .card-body .card-title {
-    color: #FFAD33;
+        color: #FFAD33;
 }
+
 .project-card {
-    border-radius: 10px;
-    background-color: rgba(255,255,255,0.00);
-    border: 1px solid #FFAD33;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.00);
+        border: 1px solid #FFAD33;
 }
+
 .col.mb-4 .card.project-card .card-img-top {
-    border-radius: 10px;
+        border-radius: 10px;
 }
 
 /*load more sectio*/
-#loadMore {
-    padding-bottom: 30px;
-    padding-top: 30px;
-    text-align: center;
-    width: 100%;
+.read-more-state {
+        display: none;
 }
-#loadMore a {
-    background: #042a63;
-    border-radius: 3px;
-    color: white;
-    display: inline-block;
-    padding: 10px 30px;
-    transition: all 0.25s ease-out;
-    -webkit-font-smoothing: antialiased;
-}
-#loadMore a:hover {
-    background-color: #021737;
-}
-article {
-    margin-bottom: 20px;
-}
-.contact {
-    padding-bottom: 0px;
-    margin-bottom: 25px;
-}
-footer {
-    background-image: url(../images/footer-bg_1.png);
-    height: 185px;
-    margin-top: 0px;
-    text-align: center;
-    padding-top: 134px;
-}
-.copy-rights {
-}
+
 
 /*end load more*/
 
+article {
+        margin-bottom: 20px;
+}
+
+.contact {
+        padding-bottom: 0px;
+        margin-bottom: 25px;
+}
+
+footer {
+        background-image: url(../images/footer-bg_1.png);
+        height: 185px;
+        margin-top: 0px;
+        text-align: center;
+        padding-top: 134px;
+}
 
 
 
@@ -542,4 +541,22 @@ footer {
 
 @media (max-width:992px) {
         .spacing {}
+}
+
+@media (max-width:768px) {
+        #thuy-short-intro {
+                font-size: 6vw;
+        }
+
+        /*
+.row.first-row #thuy-short-intro br {
+    display: none;
+}
+*/
+}
+
+@media (min-width:2143px) {
+        #thuy-short-intro {
+                font-size: 2.5vw;
+        }
 }
