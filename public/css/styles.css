@@ -20,7 +20,11 @@ body {
         color: #FFFFFF;
 }
 
-.nav-menu-right {}
+a:link {
+        color: white;
+      }
+
+
 
 .navItem {
         color: #FFFFFF;
@@ -37,13 +41,16 @@ body {
         background-color: rgba(0, 0, 0, 1.00);
 }
 
+.dropdown-menu{
+        background-color: transparent;
+}
 .jumbotron.jumbotron-fluid {
         color: #FFAD33;
         background-color: rgba(0, 0, 0, 1.00);
         padding-bottom: 0px;
 }
 
-#contact-section form {}
+
 
 .jumbotron-text {
         font-size: 9.5vw;
@@ -64,6 +71,20 @@ body {
 a {
         text-decoration: none;
 }
+
+a:visited {
+        color: white;
+     
+}
+
+a:hover {
+        color: hotpink;
+     
+}
+
+a:link {
+        text-decoration: none;
+      }
 
 .row .col-6 h3 {
         margin-bottom: 20px;
@@ -425,7 +446,7 @@ body main {
         margin-bottom: 35px;
 }
 
-.contact-info-header {}
+
 
 .big-header {
         margin-bottom: 10px;
@@ -445,7 +466,7 @@ body main {
         margin-bottom: auto;
 }
 
-#mail {}
+
 
 .icon-box {
         border: thin solid #FFAD33;
@@ -540,7 +561,7 @@ footer {
 }
 
 @media (max-width:992px) {
-        .spacing {}
+       
 }
 
 @media (max-width:768px) {
